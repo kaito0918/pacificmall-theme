@@ -26,7 +26,7 @@
           <span class="toggle-line">メニュー</span>
         </button>
         <div class="header-nav">
-          <nav class="global-nav">
+          <nav class="global-nav">a
             <?php
             wp_nav_menu( array(
               'theme_location' => 'place_global',
