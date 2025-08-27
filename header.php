@@ -26,7 +26,7 @@
           <span class="toggle-line">メニュー</span>
         </button>
         <div class="header-nav">
-          <nav class="global-nav">a
+          <nav class="global-nav">
             <?php
             wp_nav_menu( array(
               'theme_location' => 'place_global',
@@ -68,7 +68,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg-page-dummy.png">
               <div class="wrapper">
                 <span class="page-title-en"></span>
-                <h2 class="page-title"><?php echo esc_html( get_the_title() ); ?></h2>
+                <h2 class="page-title"><?php echo get_main_title(); ?></h2>
               </div>
             </div>
             <div class="page-container">
